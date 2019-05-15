@@ -1,0 +1,11 @@
+.card-title{
+    text-align: -webkit-center;
+    margin: auto;
+}
+.card-body{
+    padding: inherit;
+}
+
+.col-md-4{
+    text-align: -webkit-center;
+}
