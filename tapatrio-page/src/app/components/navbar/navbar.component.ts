@@ -12,4 +12,19 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  inicio(){
+    document.getElementById('inicio').scrollIntoView();
+  }
+  fotos(){
+    document.getElementById('fotos').scrollIntoView();
+  }
+  promociones(){
+    document.getElementById('precio').scrollIntoView();
+  }
+  precios(){
+    document.getElementById('precios').scrollIntoView();
+  }
+  llamanos(){
+    document.getElementById('contactanos').scrollIntoView();
+  }
 }

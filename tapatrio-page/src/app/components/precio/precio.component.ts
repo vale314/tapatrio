@@ -12,4 +12,8 @@ export class PrecioComponent implements OnInit {
   ngOnInit() {
   }
 
+  llamanos(){
+    document.getElementById('contactanos').scrollIntoView();
+  }
+
 }

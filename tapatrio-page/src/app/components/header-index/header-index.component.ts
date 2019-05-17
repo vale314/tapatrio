@@ -9,6 +9,10 @@ export class HeaderIndexComponent implements OnInit {
 
   constructor() { }
 
+  bajar(){
+    window.scrollTo(999,document.body.scrollHeight);
+  }
+
   ngOnInit() {
   }
 

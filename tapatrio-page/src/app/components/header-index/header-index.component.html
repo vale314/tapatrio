@@ -1,8 +1,8 @@
-<header class="v-header container">
+<header class="v-header container" id="inicio">
     <div class="fullscreen-video-wrap">
        
         <!--https://wellfasterstore.blob.core.windows.net/images/1.mp4-->
-      <video src=" https://mariachilosnungaray.com.mx/video" autoplay loop >
+      <video src="https://mariachilosnungaray.com.mx/video" autoplay loop muted >
     </video>
     </div>
     <div class="header-overlay"></div>
@@ -10,9 +10,15 @@
         <h1 class="title" style="color: whitesmoke">
             Mariachi Tapatrio 
         </h1>
-        <a class="btn" style="top: 2rem">Llamanos</a>
-    </div>
-  </header>
+          <a class="d-block d-sm-block d-md-none  btn" style="top: 2rem" href="tel:3339473899"><i class="material-icons">call</i> Llamanos</a>
+          
+          <a class="d-none d-sm-none d-md-block  btn" style="top: 2rem" href="tel:3339473899" (click)="bajar()" ><i class="material-icons">call</i> Llamanos</a>
+
+          <a class="d-block d-sm-block d-md-none btn" style="top: 2rem; margin-top: 1rem" href="https://wa.me/5213331319079"><i class="material-icons">chat</i> WhatsApp</a>
+
+          <a class="d-none d-sm-none d-md-block btn" style="top: 2rem; margin-top: 1rem" href="https://api.whatsapp.com/send?phone=5213331319079&text=&source=&data="><i class="material-icons">chat</i> WhatsApp</a>
+        </div>
+      </header>
 
   <!---<section class="section section-a">
     <div class="container">
