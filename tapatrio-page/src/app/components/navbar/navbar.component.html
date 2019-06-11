@@ -5,21 +5,23 @@
       <span class="navbar-toggler-bar navbar-kebab"></span>
       <span class="navbar-toggler-bar navbar-kebab"></span>
       </button>
-      <a class="navbar-brand"  style="cursor: pointer;" (click)="inicio()">Tapatrio</a>
+      <a class="navbar-brand" href="#">
+        <img src="../../../assets/img/logos/TAPATRIO-TIPOGRAFIA.png" alt="" style="width: 6rem;">
+      </a>
   
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0" style="margin: auto; cursor: pointer;">
           <li class="nav-item">
-            <a class="nav-link"  (click)="fotos()">fotos <span class="sr-only">(current)</span></a>
+            <a class="nav-link" (click)="fotos()">fotos <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" (click)="promociones()">promociones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" (click)="precios()">precios</a>
+            <a class="nav-link " (click)="precios()">precios</a>
           </li>
         </ul>
-            <a class="nav-link disabled"   style="cursor: pointer;" (click)="llamanos()">Llamanos</a>
+            <a class="nav-link"   style="cursor: pointer;" (click)="llamanos()">Llamanos</a>
       </div>
     </div>
   </nav>

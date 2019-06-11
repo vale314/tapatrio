@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input  } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-navbar',
@@ -6,25 +8,41 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  @Input() router: boolean;
 
-  constructor() { }
+  constructor(private routes:Router) { }
 
   ngOnInit() {
   }
 
   inicio(){
-    document.getElementById('inicio').scrollIntoView();
+    if(this.router)
+      this.routes.navigate(['/'])
+    else
+      document.getElementById('inicio').scrollIntoView();
   }
   fotos(){
-    document.getElementById('fotos').scrollIntoView();
+    if(this.router)
+      this.routes.navigate(['/'])
+    else
+      document.getElementById('fotos').scrollIntoView();
   }
   promociones(){
-    document.getElementById('precio').scrollIntoView();
+    if(this.router)
+      this.routes.navigate(['/'])
+    else
+      document.getElementById('precio').scrollIntoView();
   }
   precios(){
-    document.getElementById('precios').scrollIntoView();
+    if(this.router)
+      this.routes.navigate(['/'])
+    else
+      document.getElementById('precios').scrollIntoView();
   }
   llamanos(){
+    if(this.router)
+      this.routes.navigate(['/'])
+    else
     document.getElementById('contactanos').scrollIntoView();
   }
 }

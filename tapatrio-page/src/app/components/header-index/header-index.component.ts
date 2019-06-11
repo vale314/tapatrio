@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-index.component.css']
 })
 export class HeaderIndexComponent implements OnInit {
-
+  muted=true;
   constructor() { }
 
   bajar(){
@@ -14,6 +14,10 @@ export class HeaderIndexComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  clickMuted(){
+    this.muted=!this.muted;
   }
 
 }

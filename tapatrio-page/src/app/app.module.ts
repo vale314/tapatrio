@@ -17,6 +17,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PrecioComponent } from './components/precio/precio.component';
 import { PreciosComponent } from './components/precios/precios.component';
 import { ContactanosComponent } from './components/contactanos/contactanos.component';
+import { FotosPageComponent } from './pages/fotos-page/fotos-page.component';
+import { HeaderFotosComponent } from './components/header-fotos/header-fotos.component';
+import { FotosFotosComponent } from './components/fotos-fotos/fotos-fotos.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { ContactanosComponent } from './components/contactanos/contactanos.compo
     FooterComponent,
     PrecioComponent,
     PreciosComponent,
-    ContactanosComponent
+    ContactanosComponent,
+    FotosPageComponent,
+    HeaderFotosComponent,
+    FotosFotosComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,18 @@
+<div class="main main-raised mb-2">
+    <div class="container">
+      <div class=" mt-5 row d-flex justify-content-center align-items-center ">
+        <button class="btn" routerLink="" style="z-index: 9999;position: fixed; right: 2.5rem; bottom: 2.5rem; background: #b0750e;">
+            <i class="material-icons">keyboard_backspace</i>
+        </button>
+        <div class="row d-flex">
+          <div *ngFor ="let imagen of fotosArray">
+            <a href="{{imagen}}" target="_blank">
+              <img  src={{imagen}} class="rounded mt-1 mr-3" width="500vw" height="auto">
+            </a>          
+          </div>
+        </div>
+        
+      </div>
+      </div>
+  
+</div>
