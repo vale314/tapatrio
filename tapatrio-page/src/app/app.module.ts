@@ -9,7 +9,7 @@ import { IndexComponent } from './pages/index/index.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { GeneralesComponent } from './components/generales/generales.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
-import { VideosComponent } from './components/videos/videos.component';
+import { VideosComponent, SafePipe } from './components/videos/videos.component';
 import { SectionBlackComponent } from './components/section-black/section-black.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { ShareComponent } from './components/share/share.component';
@@ -40,7 +40,8 @@ import { FotosFotosComponent } from './components/fotos-fotos/fotos-fotos.compon
     ContactanosComponent,
     FotosPageComponent,
     HeaderFotosComponent,
-    FotosFotosComponent
+    FotosFotosComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

@@ -12,4 +12,7 @@ export class IndexComponent implements OnInit {
   ngOnInit() {
   }
 
+  ngAfterViewInit() { 
+    window.scrollTo(0,0)
+  }
 }

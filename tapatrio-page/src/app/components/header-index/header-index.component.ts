@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderIndexComponent implements OnInit {
   muted=true;
+  video="http://www.mariachigemanegra.com/source/video/video-largo-gema-negra-mariachi-guadalajara.mp4"
   constructor() { }
 
   bajar(){
