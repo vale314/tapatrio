@@ -1,0 +1,10 @@
+
+.section{
+    background: url(https://i.ibb.co/fqHz5M3/1920x1080-black-solid-color-background.jpg);
+}
+
+@media(max-width:960px){
+    .section{
+        background: url(https://i.ibb.co/99tGL4K/1920px-Flag-of-Afghanistan-1880-1901-svg.png);
+    }
+  }

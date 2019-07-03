@@ -18,12 +18,12 @@ export class VideosComponent implements OnInit {
 
   
   videos=[
-    "https://www.youtube.com/embed/hjlKUghyyLE",
-    "https://www.youtube.com/embed/3ikmZA8RVro",
-    "https://www.youtube.com/embed/mGgH0PW2N_Y",
-    "https://www.youtube.com/embed/s8gkVjLXbjI",
-    "https://www.youtube.com/embed/rYQmLvkS5TY",
-    "https://www.youtube.com/embed/7jLVnJCi8_M"
+    "https://www.youtube.com/embed/bX8KqsURGuM",
+    "https://www.youtube.com/embed/jPgu5YEDl7E",
+    "https://www.youtube.com/embed/yVTUhsPicis",
+    "https://www.youtube.com/embed/dkddGjUEpeM",
+    "https://www.youtube.com/embed/1HZeIL8GZ5U",
+    "https://www.youtube.com/embed/nUp9YKrWUoo"
   ]
 
   constructor() { }
