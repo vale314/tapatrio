@@ -20,21 +20,15 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/assets/videos/examples.mp4"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css",
               "src/assets/css/material-kit.css"
             ],
             "scripts": [
-              "src/assets/js/material-kit.js",
-              "src/assets/js/core/jquery.min.js",
-              "src/assets/js/core/popper.min.js",
-              "src/assets/js/core/bootstrap-material-design.min.js",
-              "src/assets/js/plugins/moment.min.js",
-              "src/assets/js/plugins/bootstrap-datetimepicker.js",
-              "src/assets/js/plugins/nouislider.min.js"
+              "src/assets/js/material-kit.min.js",
+              "src/assets/js/core/bootstrap-material-design.min.js"
             ],
             "es5BrowserSupport": true
           },
