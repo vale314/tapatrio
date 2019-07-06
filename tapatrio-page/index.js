@@ -17,16 +17,16 @@ app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname,'./dist/tapatrio-page/index.html'));
 })
 
-// https.createServer({
-//   key: fs.readFileSync(path.join(__dirname,'./server/ssl/server.key')),
-//   ca: fs.readFileSync(path.join(__dirname,'./server/ssl/server.cert')),
-//   cert: fs.readFileSync(path.join(__dirname,'./server/ssl/server.cert'))
-// }, app)
-// .listen(8080, function () {
-//   console.log('Example app listening on port 3000! Go to https://localhost:3000/')
-// })
+https.createServer({
+  key: fs.readFileSync(path.join(__dirname,'./server/ssl/domain-key.pem')),
+  ca: fs.readFileSync(path.join(__dirname,'./server/ssl/domain-ca.crt')),
+  cert: fs.readFileSync(path.join(__dirname,'./server/ssl/domain-crt.crt'))
+}, app)
+.listen(443, function () {
+  console.log('Example app listening on port 3000! Go to https://localhost:3000/')
+})
 
 http.createServer(app)
-    .listen(process.env.PORT || 8080, function () {
+    .listen(process.env.PORT || /*80*/8080, function () {
       console.log('Example app listening on port')
-    })
+})
