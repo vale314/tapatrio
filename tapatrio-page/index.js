@@ -12,6 +12,18 @@ app.use(compression())
 
 app.use(express.static((path.join(__dirname,'./dist/tapatrio-page'))));
 
+app.get('/video',(req,res)=>{
+ const path = './server/video/video.mp4'
+
+   const head = {
+     'Accept-Ranges': 'bytes',
+     'Content-Type': 'video/mp4',
+   }
+
+   res.writeHead(200, head)
+   fs.createReadStream(path).pipe(res)
+
+})
 
 app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname,'./dist/tapatrio-page/index.html'));

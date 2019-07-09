@@ -7,6 +7,9 @@
 # Only exists if Bazel was run
 /bazel-out
 
+#video
+*.mp4
+
 # dependencies
 /node_modules
 
