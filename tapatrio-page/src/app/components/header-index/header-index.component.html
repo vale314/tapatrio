@@ -22,7 +22,16 @@
           <a class="d-none d-sm-none d-md-block btn" style="top: 2rem; margin-top: 1rem" href="https://api.whatsapp.com/send?phone=5213331319079&text=&source=&data="><i class="material-icons">chat</i> WhatsApp</a>
           
         </div>
-        <button class="btn" style="z-index: 9999;position: fixed; right: 2.5rem; bottom: 2.5rem; background: #b0750e;" (click)="clickMuted()" >
+        <button class="btn d-block" style="z-index: 9999;position: fixed; right: 2rem; bottom: 2.5rem; background: #b0750e;" (click)="clickMuted()" >
             <i class="material-icons" >volume_up</i>
         </button>
+
+        <button class="btn d-sm-none d-md-block" style="z-index: 9999;position: fixed; right: 2rem; bottom: 7.5rem; background: #34b3a0;" (click)="bajar()">
+          <i class="material-icons" >call</i>
+        </button>
+
+        <button class="btn d-sm-block d-md-none" style="z-index: 9999;position: fixed; right: 2rem; bottom: 7.5rem; background: #34b3a0;">
+          <a href="tel:3331319079" style="color: white"><i class="material-icons">call</i></a>
+        </button>
+
       </header>
