@@ -12,4 +12,7 @@ export class PrecioTrioComponent implements OnInit {
   ngOnInit() {
   }
 
+  llamanos(){
+    document.getElementById('contactanos').scrollIntoView();
+  }
 }
