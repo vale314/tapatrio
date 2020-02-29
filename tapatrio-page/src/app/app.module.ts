@@ -21,6 +21,7 @@ import { FotosPageComponent } from './pages/fotos-page/fotos-page.component';
 import { HeaderFotosComponent } from './components/header-fotos/header-fotos.component';
 import { FotosFotosComponent } from './components/fotos-fotos/fotos-fotos.component';
 import { PrecioTrioComponent } from './components/precio-trio/precio-trio.component';
+import { MethodpaymentComponent } from './components/methodpayment/methodpayment.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { PrecioTrioComponent } from './components/precio-trio/precio-trio.compon
     HeaderFotosComponent,
     FotosFotosComponent,
     SafePipe,
-    PrecioTrioComponent
+    PrecioTrioComponent,
+    MethodpaymentComponent
   ],
   imports: [
     BrowserModule,
