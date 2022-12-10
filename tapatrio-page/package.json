@@ -24,7 +24,7 @@
     "@nguniversal/express-engine": "^8.1.1",
     "compression": "^1.7.4",
     "core-js": "^2.5.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-force-ssl": "^0.3.2",
     "fs": "0.0.1-security",
     "http": "0.0.0",
